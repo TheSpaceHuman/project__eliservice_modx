@@ -1,0 +1,95 @@
+.top-baner {
+  position: relative;
+
+}
+.top-baner h1 {
+  position: absolute;
+  left: 20%;
+  top: 265px;
+
+
+  width: 980px;
+  color: #231f20;
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 61px;
+  text-transform: uppercase;
+
+}
+.definition-eliservis {
+  
+  background-color: #ededed;
+  opacity: 0.7;
+}
+.definition-eliservis img {
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+
+}
+h2.underlining--green {
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $black-color;
+  padding: 10px 0 45px;
+}
+.text-left-block p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+
+  color: #4f4f4f;
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* .underlining--green::after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 100px;
+
+  width: 109px;
+  height: 10px;
+  background-color: #56a543;
+
+} */
+.text-left-block {
+  margin: 100px 0;
+}
+.services {
+  background-color: #d8e1e8;
+  opacity: 0.6;
+  height: 850px;
+}
+.services-list__item {
+  /* width: 585px; */
+  /* height: 340px; */
+  /* box-shadow: 0 0 24px rgba(10, 10, 10, 0.2);
+  background-image: linear-gradient(to top, rgba(25, 25, 25, 0.6) 0%, rgba(0, 0, 0, 0) 100%); */
+  margin: 10px;
+  padding: 0;
+  position: relative;
+}
+.services-list__item img {
+  position: relative;
+  width: 550px;
+  /* height: 340px; */
+}
+.services-list {
+  
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+}
+.services-list__item p,
+.services-list__item span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
