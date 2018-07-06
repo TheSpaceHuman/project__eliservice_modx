@@ -1,0 +1,105 @@
+.footer {
+  background: linear-gradient(to right, $green-color 45% , $light-colot 45%);
+  margin-top: 50px;
+  padding-bottom: 50px;
+  height: 600px;
+}
+
+.footer__title {
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 79.49px;
+  text-transform: uppercase;
+}
+.title--black {
+  color: $black-color;
+}
+.title--white {
+  color: $light-colot;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 255px;
+
+  margin-left: 19%;
+  margin-top: 140px;
+
+
+}
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 318px;
+
+  margin-left: 19%;
+  margin-top: 66px;
+
+}
+.question-wrapper label,
+.question-wrapper input, {
+  margin: 0;
+  padding: 8px 0;
+}
+.question-wrapper a {
+  margin: 15px;
+  color: $light-colot;
+  align-items: left;
+  width: 200px;
+}
+
+
+.contacts-wrapper > h2,
+.contacts-wrapper > p {
+  margin: 0;
+}
+.contacts__text {
+  font-size: 20px;
+  font-weight: 300;
+  color: $light-colot;
+  padding-left: 30px;
+}
+.text-underline {
+  text-decoration: underline;
+}
+article.question button {
+  background: inherit;
+  border: none;
+  font: inherit;
+}
+article.question label {
+  color: #595959;
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 17.11px;
+}
+.question__text {
+  color: #0f0f0f;
+  font-family: "Circe","Encode Sans Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.button-green {
+  display: inline-block;
+  padding: 10px 40px;
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  border: 2 solid $green-color;
+
+  border-radius: 24px;
+  background-color: $green-color;
+}
+
+input {
+  background: inherit;
+  border: none;
+  border-bottom: 1px solid #595959;
+
+}
