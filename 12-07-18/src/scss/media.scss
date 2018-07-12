@@ -1,0 +1,146 @@
+/* Media */
+/* 
+@include media-breakpoint-up(xs) { >576px }
+@include media-breakpoint-up(sm) { <576px }
+@include media-breakpoint-up(md) { <768px }
+@include media-breakpoint-up(lg) { <992px }
+@include media-breakpoint-up(xl) { <1200px } 
+*/
+@include media-breakpoint-up(xs) {
+  .top-baner {
+    display: none;
+  }
+  .wrapper-text {
+    margin: 0;
+  }
+  .wrapper--left{
+    justify-content: center;
+  }
+  .definition-eliservis__wrapper p {
+    margin: 0;
+    padding: 10px 0;
+    align-self: center;
+}
+.footer {
+  background: linear-gradient(to bottom, #56a543 43%, #e9e9e9 43%);
+}
+}
+@include media-breakpoint-up(sm) {
+  .top-baner {
+    display: none;
+  }
+  .wrapper--left{
+    justify-content: center;
+  }
+  .wrapper-text {
+    margin: 0;
+  }
+  .wrapper--left{
+    justify-content: center;
+  }
+  .definition-eliservis__wrapper p {
+    margin: 0;
+    padding: 10px 0;
+    align-self: center;
+}
+.footer {
+  background: linear-gradient(to bottom, #56a543 43%, #e9e9e9 43%);
+}
+}
+@include media-breakpoint-up(md) {
+  .top-baner {
+    display: none;
+  }
+  .top-baner h1 {
+    font-size: 48px;
+  }
+  .info-wrapper {
+    justify-content: center;
+  }
+  .logo-wrapper {
+    justify-content: center;
+  }
+  .top-menu__items {
+    justify-content: space-around;
+  }
+  .wrapper-text {
+    margin: 0;
+  }
+  .wrapper--left{
+    justify-content: center;
+  }
+  .definition-eliservis__wrapper p {
+    margin: 0;
+    padding: 10px 0;
+    align-self: center;
+}
+.footer {
+  background: linear-gradient(to bottom, #56a543 43%, #e9e9e9 43%);
+}
+}
+@include media-breakpoint-up(lg) {
+  .top-baner {
+    display: block;
+  }
+  .top-baner h1 {
+    font-size: 48px;
+  }
+  .info-wrapper {
+    justify-content: center;
+  }
+  .logo-wrapper {
+    justify-content: center;
+  }
+  .wrapper-text {
+    margin-left: 50px;
+  }
+  .wrapper--left{
+    justify-content: left;
+  }
+  .definition-eliservis__wrapper p {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+}
+.footer {
+  background: linear-gradient(to right, #56a543 43%, #e9e9e9 43%);
+}
+.footer__title {
+  font-size: 26px
+}
+
+}
+@include media-breakpoint-up(xl) {
+  .top-baner {
+    display: block;
+  }
+  .top-baner h1 {
+    font-size: 58px;
+  }
+  .info-wrapper {
+    justify-content: flex-start;
+  }
+  .logo-wrapper {
+    justify-content: flex-start;
+  }
+  .wrapper-text {
+    margin-left: 50px;
+  }
+  .wrapper--left{
+    justify-content: left;
+  }
+  .definition-eliservis__wrapper p {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+}
+.footer {
+  background: linear-gradient(to right, #56a543 43%, #e9e9e9 43%);
+}
+.footer__title {
+  font-size: 26px
+}
+
+}
+
+/* ------ */

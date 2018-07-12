@@ -8,3 +8,11 @@
   background: rgba(0,0,0, 0.5);
   z-index: 5;
 }
+@keyframes bounce {
+  0% { transform: translateY(-2000px); }
+  100% { transform: translateY(0) }
+}
+.popup--active {
+  animation-name: bounce;
+  animation-duration: 2s;
+}
